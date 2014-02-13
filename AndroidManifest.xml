@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobigeni.cars.motors.parts.search"
+    android:versionCode="8"
+    android:versionName="3.8" 
+   >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/floraappsicon"
+        android:label="@string/app_name"
+         android:hardwareAccelerated="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+         >
+           <activity
+            android:name="com.mobigeni.cars.motors.parts.search.Firstactivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mobigeni.cars.motors.parts.search.MainActivity"
+            android:label="@string/app_name"
+         android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize" >
+            
+        </activity>
+          <activity
+            android:name="com.mobigeni.cars.motors.parts.search.StackParser"
+            android:label="@string/app_name"
+         android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize" >
+            
+        </activity>
+        <activity android:name="com.google.ads.AdActivity"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"  />
+   
+    </application>
+
+</manifest>

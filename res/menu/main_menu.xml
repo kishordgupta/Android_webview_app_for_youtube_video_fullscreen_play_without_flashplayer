@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+        android:id="@+id/home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/news"
+        android:title="News">
+        <menu>
+            <item
+                android:id="@+id/feat"
+                android:title="Featured"/>
+           
+            <item
+                android:id="@+id/inter"
+                android:title="Ayrton Senna"/>
+            <item
+                android:id="@+id/article"
+                android:title="Bruno Senna">
+            </item>
+           
+        </menu>
+    </item>
+    <item
+        android:id="@+id/valentionrossi"
+        android:title="Ayrton Senna da Silva">
+        <menu>
+            <item
+                android:id="@+id/bio"
+                android:title="Personal life"/>
+           
+            <item
+                android:id="@+id/carree"
+                android:title="Early life and career"/>
+            <item
+                android:id="@+id/ppr"
+                android:title="Formula One career">
+            </item>
+            <item
+                android:id="@+id/stat"
+                android:title="Legacy and Senna Lives on"/>
+            <item
+                android:id="@+id/senina"
+                android:title="Senninha and Turma do Senninha"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/brbvalentionrossi"
+        android:title="Bruno Senna">
+        <menu>
+            <item
+                android:id="@+id/brbbio"
+                android:title="Personal life"/>
+           
+            <item
+                android:id="@+id/brbcarree"
+                android:title="Formula Three (2005–2006)"/>
+            <item
+                android:id="@+id/brbppr"
+                android:title="GP2 Series (2007–2008)">
+            </item>
+            <item
+                android:id="@+id/brbstat"
+                android:title="Formula 1"/>
+            <item
+                android:id="@+id/brbsenina"
+                android:title="Le Mans Series (2009)"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/dl"
+        android:title="Formula 1 Video News">
+        
+    </item>
+        <item
+                android:id="@+id/vide"
+                android:title="Video"/>
+            <item
+                android:id="@+id/photo"
+                android:title="Photos"/>
+     
+    
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>
